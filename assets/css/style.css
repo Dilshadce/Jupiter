@@ -230,9 +230,9 @@ h6 {
 }
 
 h1 {
-  font-size: 60px;
-  line-height: 70px;
-  letter-spacing: -3px;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: -1px;
 }
 
 @media (max-width: 991px) {
@@ -4131,7 +4131,7 @@ header.header-4 #hamburger {
    Hero Section - Styles
  ------------------------------------ */
 .hero-1 .single-slide {
-  padding: 200px 0px 180px;
+  padding: 110px 0px 120px;
   z-index: 1;
   position: relative;
 }
@@ -4206,11 +4206,11 @@ header.header-4 #hamburger {
 }
 
 .hero-1 .single-slide .hero-contents h1 {
-  color: #fff;
-  font-size: 140px;
-  line-height: 90%;
-  letter-spacing: -3px;
-  text-transform: capitalize;
+    color: #fff;
+    font-size: 56px;
+    line-height: 67px;
+    letter-spacing: -3px;
+    text-transform: capitalize;
 }
 
 @media (max-width: 1199px) {
@@ -4752,7 +4752,7 @@ header.header-4 #hamburger {
 .section-title-2 {
   position: relative;
   z-index: 2;
-  margin-bottom: 40px;
+  margin-bottom: 5px;
 }
 
 @media (max-width: 767px) {
@@ -4900,8 +4900,8 @@ header.header-4 #hamburger {
 
 .page-banner-wrap {
   background-color: #4bbfd8;
-  padding-bottom: 90px;
-  padding-top: 120px;
+  padding-bottom: 70px;
+padding-top: 80px;
   position: relative;
   z-index: 1;
 }
@@ -4921,7 +4921,7 @@ header.header-4 #hamburger {
 }
 
 .page-banner-wrap .page-heading h1 {
-  font-size: 80px;
+  font-size: 52px;
   line-height: 110%;
 }
 
@@ -6701,7 +6701,7 @@ header.header-4 #hamburger {
 
 .single-service-icon-box .contents a {
   display: block;
-  margin-top: 15px;
+  margin-top: 2px;
   text-transform: capitalize;
 }
 
@@ -7525,8 +7525,7 @@ header.header-4 #hamburger {
   color: #fff;
 }
 
-.single-approch-card,
-.single-service-card {
+.single-approch-card {
   padding: 15px;
   background-color: #fff;
   position: relative;
@@ -7536,6 +7535,16 @@ header.header-4 #hamburger {
   height: 380px;
 }
 
+
+.single-service-card {
+  padding: 15px;
+  background-color: #fff;
+  position: relative;
+  -webkit-box-shadow: 0px 30px 60px 0px rgba(52, 52, 52, 0.04);
+          box-shadow: 0px 30px 60px 0px rgba(52, 52, 52, 0.04);
+  margin-top: 30px;
+  height: auto;
+}
 .single-approch-card .card-thumb,
 .single-service-card .card-thumb {
   height: 200px;
@@ -7544,15 +7553,39 @@ header.header-4 #hamburger {
   transition: all .3s ease-in-out;
 }
 
-.single-approch-card .content,
-.single-service-card .content {
+.single-approch-card .content {
   padding: 30px 35px;
   background-color: #f7f7f7;
   position: relative;
   height: 100%;
   width: auto;
 }
-
+.single-service-card .content {
+  padding: 30px 35px;
+  background-color: #f7f7f7;
+  position: relative;
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+.contact-page-wrap .single-contact-card .top-part{
+  display: flex;
+align-items: center;
+}
+.single-contact-card:hover p{
+  color: #fff!important;
+}
+.call-us .text span {
+  font-size: 14px;
+  line-height: 1;
+  font-weight: 500;
+}
+.cta-content h1{
+  font-size: 32px!important;
+}
+.call-us .text h5{
+  margin-bottom: -8px!important;
+}
 @media (max-width: 600px) {
   .single-approch-card .content,
   .single-service-card .content {
@@ -7566,7 +7599,7 @@ header.header-4 #hamburger {
   right: 0;
   bottom: 100%;
 }
-
+/*
 .single-approch-card .content .case-cat a,
 .single-service-card .content .case-cat a {
   display: inline-block;
@@ -7577,7 +7610,22 @@ header.header-4 #hamburger {
   position: relative;
   color: #FFF;
 }
-
+*/
+.single-approch-card .content .case-cat a,
+.single-service-card .content .case-cat a {
+  display: flex;
+padding: 20px;
+line-height: 1;
+font-size: 24px;
+background-color: #4bbfd8;
+position: relative;
+color: #FFF;
+width: 65px;
+height: 65px;
+top: 30px;
+align-items: center;
+justify-content: center;
+}
 .single-approch-card .content .case-cat a:hover,
 .single-service-card .content .case-cat a:hover {
   color: #fff;
@@ -7952,7 +8000,7 @@ header.header-4 #hamburger {
   position: absolute;
   width: 100%;
   height: 100%;
-  opacity: .9;
+  opacity: 0.4;
   left: 0;
   top: 0;
   content: "";
@@ -8365,7 +8413,7 @@ header.header-4 #hamburger {
 }
 
 .block-contents .theme-btn {
-  margin-top: 40px;
+  margin-top: 15px;
 }
 
 @media (max-width: 991px) {
@@ -11708,3 +11756,85 @@ header.header-4 #hamburger {
   font-size: 17px;
 }
 /*# sourceMappingURL=style.css.map */
+#google_translate_element {
+  position: absolute;
+  bottom: calc(53px + 16px);
+  right: 16px !important;
+}
+
+.goog-te-gadget {
+  font-family: Roboto, "Open Sans", sans-serif !important;
+  text-transform: uppercase;
+}
+
+.goog-te-gadget-simple {
+  background-color: rgba(255, 255, 255, 0.2) !important;
+  border: 1px solid rgba(255, 255, 255, 0.5) !important;
+  padding: 8px !important;
+  border-radius: 4px !important;
+  font-size: 1rem !important;
+  line-height: 2rem !important;
+  display: inline-block;
+  cursor: pointer;
+  zoom: 1;
+}
+
+.goog-te-menu2 {
+  max-width: 100%;
+}
+
+.goog-te-menu-value {
+  color: #fff !important;
+}
+.goog-te-menu-value:before {
+  font-family: "Material Icons";
+  content: "";
+  margin-right: 16px;
+  font-size: 2rem;
+  vertical-align: -10px;
+}
+
+.goog-te-menu-value span:nth-child(5) {
+  display: none;
+}
+
+.goog-te-menu-value span:nth-child(3) {
+  border: none !important;
+  font-family: "Material Icons";
+}
+.goog-te-menu-value span:nth-child(3):after {
+  font-family: "Material Icons";
+  content: "";
+  font-size: 1.5rem;
+  vertical-align: -6px;
+}
+
+.goog-te-gadget-icon {
+  background-image: url(https://placehold.it/32) !important;
+  background-position: 0px 0px;
+  height: 32px !important;
+  width: 32px !important;
+  margin-right: 8px !important;
+  display: none;
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+@media (max-width: 667px) {
+  #google_translate_element {
+    bottom: calc(100% - 50% - 53px);
+    left: 16px !important;
+    width: 100% !important;
+  }
+  #google_translate_element goog-te-gadget {
+    width: 100% !important;
+  }
+  #google_translate_element .skiptranslate {
+    width: 100% !important;
+  }
+  #google_translate_element .goog-te-gadget-simple {
+    width: calc(100% - 32px) !important;
+    text-align: center;
+  }
+}
