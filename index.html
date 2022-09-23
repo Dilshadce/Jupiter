@@ -34,6 +34,36 @@
 </head>
 
 <body class="body-wrapper">    
+    <style type="text/css">
+ 
+ /*google translate Dropdown */
+ 
+ #google_translate_element select{
+ background:#f6edfd;
+ color:#383ffa;
+ border: none;
+ border-radius:3px;
+ padding:6px 8px
+ }
+ 
+ /*google translate link | logo */
+   .goog-logo-link{
+   display:none!important;
+   }
+ .goog-te-gadget{
+ color:transparent!important;
+ }
+ 
+ /* google translate banner-frame */
+ 
+ .goog-te-banner-frame{
+ display:none !important;
+ }
+ 
+ #goog-gt-tt, .goog-te-balloon-frame{display: none !important;}
+.goog-text-highlight { background: none !important; box-shadow: none !important;}
+ 
+   </style>
     <!-- preloader -->
     <div id="preloader" class="preloader">
         <div class="animation-preloader">
@@ -122,10 +152,13 @@
                                     <span>TEL : <a class="phone" href="tel:+968 26984096">+968 26984096</a></span> <br>
                                     <span>Mob : <a class="phone" href="tel:+968 9921 8523">+968 9921 8523</a></span>
                                 </div>
-                                <div id="google_translate_element"></div>
+                               
                             </div>
                         </div>
-                       
+                        <div class="single-info-element">
+                            <div id="google_translate_element"></div>
+                        </div>
+                        
                     </div>
                 </div>
                 <div class="col-6 justify-content-end align-items-center d-flex d-lg-none">
@@ -484,7 +517,7 @@
      <script type="text/javascript"> 
         function googleTranslateElementInit() { 
             new google.translate.TranslateElement(
-                {pageLanguage: 'en',includedLanguages : 'ar,en',layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 
+                {pageLanguage: 'en',includedLanguages : 'ar,en',layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 
                 'google_translate_element'
             ); 
         } 
