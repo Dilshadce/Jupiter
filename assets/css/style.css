@@ -11759,7 +11759,7 @@ justify-content: center;
 #google_translate_element {
   position: absolute;
   bottom: calc(53px + 16px);
-  right: 16px !important;
+  right: -70px !important;
 }
 
 .goog-te-gadget {
